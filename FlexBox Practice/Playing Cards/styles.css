@@ -1,0 +1,39 @@
+styles.css
+main {
+  background: grey;
+}
+#playing-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center;
+ 
+
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 150px; 
+  height: 200px;
+  border: 1px solid black;  
+  background: white;
+  padding: 8px;
+  }
+.diamond {
+  color: red;
+}
+
+.left{
+  align-self: flext-start;
+
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+ 
+
+}
+.right {
+  align-self: flex-end; 
+}
